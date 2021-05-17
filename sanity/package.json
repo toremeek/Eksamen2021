@@ -1,0 +1,52 @@
+{
+	"name": "uin1_eksamen",
+	"private": true,
+	"version": "1.0.0",
+	"description": "Gruppe: UIN 1 - Eksamen",
+	"keywords": [
+		"UIN 1",
+		"Sanity",
+		"React",
+		"Eksamen"
+	],
+	"author": {
+		"name": "Tommy W. Major"
+	},
+	"contributors": [
+		{
+			"name": "Markus Røed Lippestad"
+		},
+		{
+			"name": "Ola Wethal Petersen"
+		},
+		{
+			"name": "Tore Meek"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tommywm/UIN1_Eksamen.git"
+	},
+	"license": "MIT",
+	"main": "package.json",
+	"scripts": {
+		"start": "sanity start",
+		"build": "sanity build"
+	},
+	"dependencies": {
+		"@sanity/base": "^2.6.4",
+		"@sanity/cli": "^2.8.0",
+		"@sanity/components": "^2.2.6",
+		"@sanity/core": "^2.6.2",
+		"@sanity/default-layout": "^2.6.4",
+		"@sanity/default-login": "^2.2.6",
+		"@sanity/desk-tool": "^2.6.4",
+		"@sanity/image-url": "^0.140.22",
+		"@sanity/vision": "^2.2.6",
+		"prop-types": "^15.7",
+		"react": "^17.0",
+		"react-dom": "^17.0",
+		"react-icons": "4.2.0"
+	},
+	"devDependencies": {}
+}

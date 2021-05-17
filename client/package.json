@@ -1,0 +1,71 @@
+{
+	"name": "uin1_eksamen",
+	"version": "1.0.0",
+	"description": "Gruppe: UIN 1 - Eksamen",
+	"keywords": [
+		"UIN 1",
+		"Sanity",
+		"React",
+		"Eksamen"
+	],
+	"author": {
+		"name": "Tommy W. Major"
+	},
+	"contributors": [
+		{
+			"name": "Markus Røed Lippestad"
+		},
+		{
+			"name": "Ola Wethal Petersen"
+		},
+		{
+			"name": "Tore Meek"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tommywm/UIN1_Eksamen.git"
+	},
+	"license": "MIT",
+	"scripts": {
+		"start": "rimraf dist && parcel index.html --open --no-cache"
+	},
+	"dependencies": {
+		"@sanity/block-content-to-react": "^2.0.7",
+		"@sanity/client": "^2.2.6",
+		"framer-motion": "4.1.10",
+		"normalize.css": "8.0.1",
+		"prop-types": "15.7.2",
+		"react": "17.0.1",
+		"react-dom": "17.0.1",
+		"react-i18next": "11.8.15",
+		"react-icons": "4.2.0",
+		"react-images": "1.2.0-beta.6",
+		"react-is": "^17.0.2",
+		"react-router-dom": "5.2.0",
+		"styled-components": "5.2.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.13.8",
+		"@babel/eslint-parser": "^7.13.8",
+		"@babel/plugin-transform-runtime": "^7.13.9",
+		"@babel/preset-env": "^7.13.9",
+		"@babel/preset-react": "^7.12.13",
+		"@parcel/transformer-sass": "2.0.0-beta.2",
+		"@sanity/image-url": "0.140.22",
+		"eslint": "^7.21.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-config-prettier": "^8.1.0",
+		"eslint-plugin-html": "^6.1.1",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-module-resolver": "^1.2.0",
+		"eslint-plugin-prettier": "^3.3.1",
+		"eslint-plugin-react": "^7.22.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"parcel": "2.0.0-beta.2",
+		"prettier": "^2.2.1",
+		"rimraf": "3.0.2",
+		"sass": "^1.32.8"
+	}
+}

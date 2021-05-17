@@ -1,0 +1,30 @@
+{
+	"workbench.colorCustomizations": {
+		// project
+		// "titleBar.activeForeground": "#FFFFFF",
+		// "titleBar.inactiveForeground": "#FFFFFFCC",
+		// "titleBar.activeBackground": "#2E2E2E",
+		// "titleBar.inactiveBackground": "#2E2E2ECC",
+		// client
+		"titleBar.activeForeground": "#2E2E2E",
+		"titleBar.inactiveForeground": "#2E2E2ECC",
+		"titleBar.activeBackground": "#FFC600",
+		"titleBar.inactiveBackground": "#FFC600CC",
+		// server
+		// "titleBar.activeForeground": "#FFFFFF",
+		// "titleBar.inactiveForeground": "#FFFFFFCC",
+		// "titleBar.activeBackground": "#FF2C70",
+		// "titleBar.inactiveBackground": "#FF2C70CC",
+	},
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"eslint.alwaysShowStatus": true,
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	}
+}

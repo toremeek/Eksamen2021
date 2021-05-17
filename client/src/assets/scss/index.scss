@@ -1,0 +1,14 @@
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap');
+	
+	* {
+		box-sizing: border-box;
+	}
+	*, html, body, h1, h2, h3, h4, h5, h6, p, a, a:visited, input, label, textarea, ::placeholder {
+		font-family: roboto;
+		font-weight: 400;
+	}
+	
+#app {
+	position: relative;
+	min-height: 100vh;
+}
